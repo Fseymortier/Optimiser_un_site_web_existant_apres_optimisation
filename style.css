@@ -538,8 +538,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -750,8 +750,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%;
-    height: auto;
+    max-height: 20em;
 }
 
 .portfolio-row {
