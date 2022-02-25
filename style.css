@@ -543,6 +543,9 @@ a[data-lightbox] {
 }
 
 a[data-lightbox]:hover::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -751,6 +754,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     max-height: 20em;
+    object-fit: cover;
 }
 
 .portfolio-row {
