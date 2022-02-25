@@ -754,6 +754,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     height: 20em;
+    max-width: 100%;
     object-fit: cover;
 }
 
