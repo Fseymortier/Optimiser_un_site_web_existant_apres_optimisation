@@ -140,7 +140,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -768,7 +768,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 1);
+    background-color: #7A6D48;
     padding: 40px 40px 40px 40px;
 }
 
